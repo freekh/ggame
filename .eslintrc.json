@@ -1,0 +1,19 @@
+{
+  "extends": "standard",
+  "plugins": [
+    "standard",
+    "promise"
+  ],
+  "rules": {
+    "semi": "off",
+    "space-before-function-paren": "off",
+    "comma-dangle": "off",
+    "no-var": "error"
+  },
+  "globals": {
+    "include": true,
+    "m4": true,
+    "requestAnimationFrame": true,
+    "Image": true
+  }
+}
